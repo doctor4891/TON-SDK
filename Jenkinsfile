@@ -131,9 +131,6 @@ pipeline {
                     }
                     env.IMAGE = G_images['TON-SDK']                        
                 }
-                echo "Version: ${getVar(G_binversion)}."
-                echo "Branch: ${GIT_BRANCH}"
-                echo "Possible RC: ${getVar(G_binversion)}-rc"
             }
         }
         stage('Versioning') {
@@ -155,6 +152,9 @@ ton_client/platforms/ton-client-web"""
                     } else {
                         G_binversion = sh (script: "node tonVersion.js ${folders}", returnStdout: true).trim()
                     }
+                    echo "Version: ${G_binversion}."
+                    echo "Branch: ${GIT_BRANCH}"
+                    echo "Possible RC: ${G_binversion}-rc"
                 }
             }
         }
