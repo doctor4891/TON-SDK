@@ -129,7 +129,7 @@ pipeline {
                     } else {
                         G_images.put('TON-SDK', "tonlabs/ton-sdk:source-${G_commit}")
                     }
-                    env.IMAGE = G_images['TON-SDK']                        
+                    env.IMAGE = G_images['TON-SDK']
                 }
             }
         }
