@@ -255,7 +255,7 @@ ton_client/platforms/ton-client-web"""
                                     withAWS(credentials: 'CI_bucket_writer', region: 'eu-central-1') {
                                         identity = awsIdentity()
                                         s3Upload \
-                                            bucket: 'sdkbinaries.tonlabs.io', \
+                                            bucket: 'sdkbinaries-ws.tonlabs.io', \
                                             includePathPattern:'*.gz', path: 'tmp_sdk', \
                                             workingDir:'.'
                                     }
@@ -325,7 +325,7 @@ ton_client/platforms/ton-client-web"""
                                         withAWS(credentials: 'CI_bucket_writer', region: 'eu-central-1') {
                                             identity = awsIdentity()
                                             s3Upload \
-                                                bucket: 'sdkbinaries.tonlabs.io', \
+                                                bucket: 'sdkbinaries-ws.tonlabs.io', \
                                                 includePathPattern:'*.gz', path: 'tmp_sdk', \
                                                 workingDir:'.'
                                         }
@@ -397,7 +397,7 @@ ton_client/platforms/ton-client-web"""
                                         withAWS(credentials: 'CI_bucket_writer', region: 'eu-central-1') {
                                             identity = awsIdentity()
                                             s3Upload \
-                                                bucket: 'sdkbinaries.tonlabs.io', \
+                                                bucket: 'sdkbinaries-ws.tonlabs.io', \
                                                 includePathPattern:'*.gz', path: 'tmp_sdk', \
                                                 workingDir:'.'
                                         }
@@ -476,7 +476,7 @@ ton_client/platforms/ton-client-web"""
                                         withAWS(credentials: 'CI_bucket_writer', region: 'eu-central-1') {
                                             identity = awsIdentity()
                                             s3Upload \
-                                                bucket: 'sdkbinaries.tonlabs.io', \
+                                                bucket: 'sdkbinaries-ws.tonlabs.io', \
                                                 includePathPattern:'*.gz', path: 'tmp_sdk', \
                                                 workingDir:'.'
                                         }
@@ -560,7 +560,7 @@ ton_client/platforms/ton-client-web"""
                                         withAWS(credentials: 'CI_bucket_writer', region: 'eu-central-1') {
                                             identity = awsIdentity()
                                             s3Upload \
-                                                bucket: 'sdkbinaries.tonlabs.io', \
+                                                bucket: 'sdkbinaries-ws.tonlabs.io', \
                                                 includePathPattern:'*.gz', path: 'tmp_sdk', \
                                                 workingDir:'.'
                                         }
@@ -644,7 +644,7 @@ ton_client/platforms/ton-client-web"""
                                         withAWS(credentials: 'CI_bucket_writer', region: 'eu-central-1') {
                                             identity = awsIdentity()
                                             s3Upload \
-                                                bucket: 'sdkbinaries.tonlabs.io', \
+                                                bucket: 'sdkbinaries-ws.tonlabs.io', \
                                                 includePathPattern:'*.gz', path: 'tmp_sdk', \
                                                 workingDir:'.'
                                         }
@@ -730,7 +730,7 @@ ton_client/platforms/ton-client-web"""
                                         withAWS(credentials: 'CI_bucket_writer', region: 'eu-central-1') {
                                             identity = awsIdentity()
                                             s3Upload \
-                                                bucket: 'sdkbinaries.tonlabs.io', \
+                                                bucket: 'sdkbinaries-ws.tonlabs.io', \
                                                 includePathPattern:'*.gz', path: 'tmp_sdk', \
                                                 workingDir:'.'
                                         }
@@ -792,7 +792,7 @@ ton_client/platforms/ton-client-web"""
                                     withAWS(credentials: 'CI_bucket_writer', region: 'eu-central-1') {
                                         identity = awsIdentity()
                                         s3Upload \
-                                            bucket: 'sdkbinaries.tonlabs.io', \
+                                            bucket: 'sdkbinaries-ws.tonlabs.io', \
                                             includePathPattern:'*.gz', path: 'tmp_sdk', \
                                             workingDir:'.'
                                     }
@@ -860,7 +860,7 @@ ton_client/platforms/ton-client-web"""
                                     withAWS(credentials: 'CI_bucket_writer', region: 'eu-central-1') {
                                         identity = awsIdentity()
                                         s3Upload \
-                                            bucket: 'sdkbinaries.tonlabs.io', \
+                                            bucket: 'sdkbinaries-ws.tonlabs.io', \
                                             includePathPattern:'*.gz', path: 'tmp_sdk', \
                                             workingDir:'.'
                                     }
